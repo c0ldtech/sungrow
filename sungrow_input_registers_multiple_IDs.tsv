@@ -15,6 +15,18 @@ _address	deviceId	name	description	unit	type	len	factor	offset	formula	role	room
 5032	1	Reactive Power	Blindleistung	VA®	int32sw	2		0		value		false	false
 5034	1	Power Factor	Leistungsfaktor		int16be	1	0.001	0		value		false	false
 5035	1	Grid Frequency	Netzfrequenz	Hz	uint16be	1	0.1	0		value		false	false
+5600	1	Gesamtleistung DTSU666	Leistung	W	int32sw	2	1	0		value		false	false
+5602	1	L1 Leistung DTSU666	Leistung L1	W	int32sw	2	1	0		value		false	false
+5604	1	L2 Leistung DTSU666	Leistung L2	W	int32sw	2	1	0		value		false	false
+5606	1	L3 Leistung DTSU666	Leistung L3	W	int32sw	2	1	0		value		false	false
+5740	1	PhaseA Voltage DTSU666	Spannung Phase1	V	uint16be	1	0.1	0		value		false	false
+5741	1	PhaseB Voltage DTSU666	Spannung Phase2	V	uint16be	1	0.1	0		value		false	false
+5742	1	PhaseC Voltage DTSU666	Spannung Phase3	V	uint16be	1	0.1	0		value		false	false
+5743	1	PhaseA Current DTSU666	Strom Phase1	A	uint16be	1	0.01	0		value		false	false
+5744	1	PhaseB Current DTSU666	Strom Phase2	A	uint16be	1	0.01	0		value		false	false
+5745	1	PhaseC Current DTSU666	Strom Phase3	A	uint16be	1	0.01	0		value		false	false
+5746	1	Import DTSU666	Import	kWh	uint32sw	2	0.01	0		value		false	false
+5748	1	Export DTSU666	Export	kWh	uint32sw	2	0.01	0		value		false	false
 6226	1	Monthly PV energy yields January	 Monatlicher PV Energieertrag  Januar	Kwh	uint16be	1	0.1	0		value		false	false
 6227	1	Monthly PV energy yields February	 Monatlicher PV Energieertrag Februar	Kwh	uint16be	1	0.1	0		value		false	false
 6228	1	Monthly PV energy yields March	 Monatlicher PV Energieertrag März	Kwh	uint16be	1	0.1	0		value		false	false
