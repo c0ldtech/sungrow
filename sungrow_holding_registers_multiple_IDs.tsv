@@ -34,12 +34,13 @@ _address	deviceId	name	description	unit	type	len	factor	offset	formula	role	room
 13061	1	Battery over temperature threshold	Batterie Übertemperatur Threshold	°C	int16be	1	0.1	0		value		false	false	false	false
 13062	1	Battery under temperature threshold	Batterie Übertemperatur Threshold	°C	int16be	1	0.1	0		value		false	false	false	false
 13064	1	Terminated current of constant voltage charging		°C	int16be	1	0.001	0		value		false	false	false	false
+13073	1	Export Power Limit		W	uint16be	1	1	0		value		true	false	false	false
 13074	1	Off-grid Option	Netzunabhängig ja 170/nein 85		uint16be	1	1	0		value		true	false	false	false
 13079	1	External EMS heartbeat			uint16be	1	1	0		value		false	false	false	false
 13083	1	Start  Charging Power	u.U. Leistung, mit welcher ein Ladevorgang begonnen wird. Klärung erwünscht	W	uint16be	1	10	0		value		true	false	false	false
 13084	1	Start Discharging Power	u.U. Leistung, mit welcher ein Entladevorgang begonnen wird. Klärung erwünscht	W	uint16be	1	10	0		value		true	false	false	false
 13085	1	Meter Comm.	Kommunikation mit Energie Meter des WR	W	uint16be	1	1	0		value		false	false	false	false
 13086	1	Export Power Limitation	Einspeise Limitierung AN(170/AA) AUS(85/55h)		uint16be	1	1	0		value		true	false	false	false
-13099	1	SOC Reserve	SOC Reserve	%	uint16be	1	1	0		value		true	false	false	false
+13099	1	SOC Reserve	SOC Reserve fuer Backup	%	uint16be	1	1	0		value		true	false	false	false
 33046	1	Max Charging Power	Max Ladeleistung	W	uint16be	1	10	0		value		true	false	false	false
 33047	1	Max Discharging Power	Max Entladeleistung	W	uint16be	1	10	0		value		true	false	false	false
